@@ -7,8 +7,8 @@ const Layout = () => {
     <div>
       <header>
         <Link to="/">Home</Link>
-        <Link to="/second">Second</Link>
-        <Link to="/third">Third</Link>
+        <Link to="/catalog">Catalog</Link>
+        <Link to="/favourites">Favourites</Link>
       </header>
       <main>
         <Suspense>

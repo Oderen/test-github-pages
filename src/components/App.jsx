@@ -12,8 +12,8 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
-          <Route path="second" element={<SecondPage />} />
-          <Route path="third" element={<ThirdPage />} />
+          <Route path="catalog" element={<SecondPage />} />
+          <Route path="favourites" element={<ThirdPage />} />
         </Route>
 
         <Route path="*" element={<NotFound />} />
